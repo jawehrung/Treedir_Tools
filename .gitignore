@@ -1,0 +1,62 @@
+```plaintext
+# Environnement Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+.git
+
+# Fichiers de configuration IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de logs
+*.log
+
+# Fichiers de paquets
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Fichiers de distribution
+*.wheel
+
+# Fichiers de test
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Fichiers de documentation
+docs/_build/
+
+# Fichiers de Jupyter Notebook
+.ipynb_checkpoints
+
+# Fichiers de système d'exploitation
+.DS_Store
+Thumbs.db
+```
