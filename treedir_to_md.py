@@ -63,8 +63,14 @@ def main():
     None
     """
     root_path = "D:\Python"  # Remplacez par le chemin de votre répertoire
-    print(generate_treedir_markdown(root_path))
-    print(generate_tree_markdown(root_path))
+
+    # Écrire le rendu dans un fichier Markdown
+    with open("Treedir.md", 'w', encoding='utf-8') as md_file:
+        md_file.write(generate_treedir_markdown(root_path))
+
+    with open("Tree.md", 'w', encoding='utf-8') as md_file:
+        md_file.write(generate_tree_markdown(root_path))
+
 
 if __name__ == "__main__":
     main()
