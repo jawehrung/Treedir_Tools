@@ -62,7 +62,7 @@ def main():
     Returns:
     None
     """
-    root_path = "D:\Python\\fichiers_TF"  # Remplacez par le chemin de votre répertoire
+    root_path = "D:\Python"  # Remplacez par le chemin de votre répertoire
     print(generate_treedir_markdown(root_path))
     print(generate_tree_markdown(root_path))
 

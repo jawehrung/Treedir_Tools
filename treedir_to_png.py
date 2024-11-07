@@ -72,7 +72,7 @@ def main():
     Returns:
     None
     """
-    root_path = "D:\\Python\\fichiers_TF"  # Remplacez par le chemin de votre répertoire
+    root_path = "D:\\Python"  # Remplacez par le chemin de votre répertoire
     markdown = generate_treedir_markdown(root_path)
     output_image_path = "directory_tree.png"
     save_markdown_as_image(markdown, output_image_path)
